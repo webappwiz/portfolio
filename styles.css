@@ -1,0 +1,925 @@
+body {
+        
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    width: 98%;
+    max-width: 1400px;
+}
+
+.header {
+     height: 90%;
+     display: flex;
+     background-color: black;
+     opacity: 0.7;
+     background-image: url(cap_guy-removebg-preview.png);
+     background-repeat: no-repeat;
+     background-position-x: 80%;
+     background-size: 50%;
+    
+width: 100%;
+} 
+
+.header-content {
+    width: 100%; 
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 5px;
+    
+} 
+
+
+.logo {
+     width: 120px;
+    flex-direction: row;
+    margin-top: 10px;
+
+    display: flex;
+    height: 20px;
+    margin: 5px;
+}
+
+h2 {
+    color: #ccc;
+    font-size: 16px;
+margin-top: 5px;
+     margin: 2px;
+}
+.logo-img {
+    width: 20px;
+    height: 15px;
+   border-radius: 36px;
+ border: 2px solid red;
+   
+} 
+
+.info {
+    margin-top: 200px;
+    text-align: center;
+   width: 400px;
+   margin-left: 10%;
+  
+}
+
+.info  b{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    color: red;
+    font-size: 25px;
+     
+
+  }
+
+pre {
+    text-align: justify;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #ccc;
+    padding-top: 10px;
+}
+.p1{
+    color: #ccc;
+    border-radius: 36px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+h6 a {
+         border: 1px solid #ccc;
+         font-size: 20px;
+         font-weight: 400;
+         border-radius: 36px;
+         color: #ccc;
+         text-decoration: none;
+    
+         
+}
+
+
+#whatsapp { width: 20px;
+    height: 10px;
+margin-left: 30px;
+padding-top: 30px;
+opacity: 0.5;
+}
+
+#facebook {
+width: 20px;
+height: 10px; 
+border-radius: 36px;
+margin-left: 30px;
+padding-top: 30px;
+} 
+
+#telgrame{
+width: 20px;
+height: 10px; 
+margin-left: 30px;
+padding-top: 30px;
+}
+
+.subtop{
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        margin-left: 20%;
+        height: 200px;
+       
+}
+
+
+.service-all{
+          margin-left: 5px;
+          position: absolute;
+          display: inline-block;
+          Cursor:pointer;
+          margin-top: 5px;
+         
+
+}
+.service-all a {
+                 text-decoration: none;
+
+                 color: #ccc;
+                 font-size: 16px;
+                 font-weight: 900;
+                
+
+}
+
+
+
+.about-all{
+    margin-left: 110px;
+    display: inline-block;
+    Cursor:pointer;
+    margin-top: 5px;
+    color: #ccc;
+
+}
+.contact-all a {
+                 color: #ccc;
+                 font-size: 16px;
+                 font-weight: 900;
+                 text-decoration: none;
+}
+
+.contact-all{
+    margin-left: 40px;
+   
+    display: inline-block;
+    Cursor:pointer;
+    margin-top: 5px;
+
+}
+.about-all a {
+                color: #ccc;
+                font-size: 16px;
+                font-weight: 900;
+                text-decoration: none;
+}
+
+#cont {
+   
+            background-color: black;
+            color: #ccc;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            border: none;
+            font-weight: 900;
+            width: 150px;
+            
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+}
+.end {
+    text-align: center;
+    font-size: larger;
+}
+.end p {
+    color: black;
+    text-align: center;
+}
+     
+
+
+/*contact style*/
+
+.bod{
+    height: 100vh;
+    width: 98%;
+   background-color: gray;
+   
+
+}
+
+.min-container{
+                width: 100;
+                height: 90%;
+                display: flex;
+}
+
+.iteam-dot{
+    position: relative;
+    flex: 1;
+    margin: 0 5px; /*  Add space between columns */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+   background-color:gray;
+   height: 100%;
+}
+.iteam-form {
+    
+    position: absolute;
+    left: 0;
+    width: 25%;
+    height: 60%;
+   /* Semi-transparent overlay */
+    display: flex;
+   display:flex;
+   flex-direction: column;
+    font-size: 16px;
+    z-index: 2;
+    pointer-events: none; /* Optional: Allows clicks to pass through the overlay */
+   color: black;
+   background-color:black;
+   margin-left: 10%;
+  
+} 
+
+.call-detail  {
+                  
+    z-index:1;
+    text-align: center;
+    font-size: 16px;
+height: 80%;
+width: 60%;
+background-color: white;
+border-radius: 5px;
+margin-left: 20%;
+
+}
+
+#label {
+    color: white;
+    text-align: left;
+    margin-left: 1%;
+    background-color: gray;
+    width: fit-content;
+    margin-top: 1%;
+}
+
+
+
+.form {
+       width: 80%;
+       height: 100%;
+       display: flex;
+       flex-direction: column;
+       margin-left: 15%;
+       margin-top: 10%;
+       background-color: white;
+       
+}   
+#input {
+          width: 100%;
+          height: 25px;
+          color: black;
+          
+          border: 1px solid gray;
+          border-radius: 5px;
+          
+} 
+#input2 {
+           border: 1px solid gray;
+          width: 100%;
+          height: 70px;
+          color: black;
+          border-radius: 5px;
+        
+          
+}
+#send-but {
+             width: 10%;
+}
+#send-but:hover {
+    background-color: #ccc;
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+
+.logo {
+    width: 10%;
+   flex-direction: row;
+   margin-top: 10px;
+   display: flex;
+   height: 20px;
+   margin: 5px;
+}
+
+h3 {
+   color: #ccc;
+   font-size: 16px;
+margin-top: 5px;
+    margin: 2px;
+}
+#logo-img {
+   width: 20px;
+   height: 15px;
+  border-radius: 36px;
+border: 2px solid red;
+  
+} 
+.rat {
+display: flex;
+flex-direction: row;
+margin: 0;
+margin-left: 30%;
+margin-top: 10%;
+}
+.rat a {
+          text-decoration: none;
+          border: none;
+          
+}
+    
+
+
+.whatsapp {
+           width: 20px;
+           height: 15px;
+           margin-left: 10px;
+}
+
+.facebook {
+    width: 20px;
+    height: 15px;
+    margin-left: 10px;
+}
+.telgrame {
+    width: 20px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*contact end here*/
+
+/* service styling*/
+
+.boy {
+    width: 98%;
+    height: 100vh;
+    
+}
+.our-service {
+               height: 5%;
+               width: 98%;
+              
+
+}
+.service-h1 {
+             color: black;
+             margin-left: 45%;
+            margin-top: 0%;
+            font-size: 18px;
+}
+.top {
+background-image: url(Picsart_24-07-29_22-33-24-152.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 95%;
+height:55%;
+width: 100%;
+margin-top: 0.8%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 40%; 
+    margin-left: 5%;
+   
+}
+
+.item {
+    position: relative;
+    flex: 1;
+    margin: 0 1%; /*  Add space between columns */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+   background-color: rgb(241, 227, 227);
+   height: 100%;
+   
+}
+
+.content {
+    z-index:1;
+    text-align: center;
+    font-size: 16px;
+height: 100%;
+width: 100%;
+background-color: whitesmoke;
+border-radius: 5px;
+opacity: 0.5;
+
+}
+h5 b {
+    color: black;
+    font-size: 18px;
+    line-height: 1rem;
+}
+ .content a {
+              color: black;
+              font-size: 20px;
+              text-decoration: none;
+              line-height: 0.5rem;
+ }
+
+.overlay {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   /* Semi-transparent overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    z-index: 1;
+    pointer-events: none; /* Optional: Allows clicks to pass through the overlay */
+   color: black;
+   background-color: whitesmoke;
+}
+#icon {
+        width: 40px;
+        height: 30px;
+        border-radius: 10px;
+        border: 10px solid black;
+        margin-top: -5%;
+}
+/*about styling*/
+
+.body-about {
+               color: white;
+               width: 98%;
+               height: 100vh;
+               background-color: gray;
+               
+}
+
+.about-us {
+             width: 100%;
+             height: 100%;
+            
+}
+
+.my-pix {
+    background-color: white;
+      margin-left: 45%;
+      width: 7%;
+      border-radius: 5px;
+      text-align: center;
+      margin-top: 1%;
+      
+}
+.my-pix a {
+     text-decoration: none;
+   
+}
+.my-pix:hover {
+                   background-color: black;
+                   color: white;
+                   width: 7%;
+}
+.my-pix:hover a {
+                  color: white;
+}
+
+  .top-about {
+                 background-image: url(Picsart_24-08-02_13-39-24-463.png);
+                 background-repeat: no-repeat;
+                 background-size: cover;
+                 height: 45%;
+                 width: 90%;
+                 background-position: center;
+                 margin-left: 5%;
+                 margin-top: 2%;
+                 border: 3px solid black;
+                 
+  }
+  .Solomon {
+              color: white;
+              border: 1p xolid red;
+              
+              margin-left: 5%;
+            
+  }
+  .me {
+        margin-left: 5%;
+  }
+  
+ 
+              
+/* media query */
+
+@media screen and (max-width: 768px) {
+                                   body {
+                                   font-size: 14px;
+                                   line-height: 1rem;
+                                   margin: 0;
+                                   padding: 0;
+                                   width: 98%
+                                   
+                                   }
+
+                           .header {
+                            height: 90%;
+                             width: 90%;
+                            background-color: black;
+                            opacity: 0.7;
+                            background-image: url(cap_guy-removebg-preview.png);
+                            background-repeat: no-repeat;
+                            background-position-x: 80%;
+                            background-size: 70%;
+                             margin-left: 5%;
+                           
+                   } 
+                   .header-content {
+                                    width: 100%;
+                                    height: 80%;
+                                    margin-top: 5px;
+                   }
+                  
+
+                   .logo {
+                    margin: 0;
+                   flex-direction: row;
+                   display: flex;
+                   height: 10%;
+                  
+                   width: 12px;
+
+           }
+           
+           h2 {
+                   color: #ccc;
+                   font-size: 10px;
+                margin: 0;
+                padding-right: 10px;
+           }
+           .logo-img {
+                   width: 15px;
+                   height: 10px;
+                  border-radius: 36px;
+                border: 1px solid red;
+                  margin: 0;
+           } 
+          .subtop{
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            height: 30%;
+            margin: 0;
+
+
+            
+    }
+           .service-all{
+          
+            display: inline-block;
+            Cursor:pointer;
+            margin-top: 5px;
+            width: 10px;
+            margin: 0;
+           margin-left: 5px;
+}
+
+.service-all a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 10px;
+    font-weight: 400;
+    margin-left: -100%;
+}
+
+
+         
+
+ 
+
+  .about-all{
+              text-decoration: none;
+            margin: 0;
+            margin-left: 22%;
+  }
+
+  .about-all a {
+                 font-size: 10px;
+                 font-weight: 400;
+                 margin-left: 5px;
+  }
+
+  .contact-all {
+                 text-decoration: none;
+                 margin: 0;
+                 margin-left:5px;
+  }
+  .contact-all a {
+                   font-size: 10px;
+                font-weight: 400;
+                margin-left: 10%;
+  }
+
+  .info {
+    margin-bottom: 40%;
+    text-align: left;
+  height: 100%;
+margin: 0;
+width: 50%;
+}
+
+.info  b{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    color: red;
+    font-size: 20px;
+     text-align: left;
+margin-top: 150px;
+
+  }
+
+pre {
+    text-align: justify;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ccc;
+    margin-top: 150px;
+    line-height: 1rem;
+    
+}
+.p1{
+    color: #ccc;
+   
+}
+.p1 h6 {
+    border:0 ;
+}
+
+h6 a {
+     color: #ccc;
+     text-decoration: none;
+     font-size: 16px;
+     border-radius: 36px;
+     border: 1px solid #ccc;
+}
+
+#whatsapp { width: 10px;
+    height: 10px;
+    opacity: 0.8;
+    margin-left: 30px;
+}
+
+#facebook {
+    width: 10px;
+    height: 10px; 
+    border-radius: 36px;
+    margin-left: 20px;
+    } 
+    
+    #telgrame{
+    width: 10px;
+    height: 10px; 
+    margin-left: 20px;
+}
+
+    */footer*/
+    .end {
+            height: 10px;
+            background-color: #ccc;
+    }
+   
+    
+    
+
+/*contact styling here*/
+                                   .bod {
+                                    font-size: 14px;
+                                    line-height: 1rem;
+                                  
+
+                                   }
+
+                                   #input{
+                                    margin: 2% 5%;
+                                    width: 80%;
+                                    height: 40px;
+                                    border-radius: 10px;
+                                    color: black;
+                            
+                            }
+
+                            .form {
+                                    
+                                    height: 100%;
+                                    margin: 3% 0  ;
+                                    width: 100%;
+                                    
+                            }
+
+                            #input2{
+                                    margin: 2% 5%;
+                                    width: 80%;
+                                    height: 100px;
+                                    border-radius: 10px;
+                                    color: black;
+                            
+}
+#label {
+         color: white;
+         text-align: left;
+         margin-left: 5%;
+         background-color: gray;
+         width: fit-content;
+}
+.iteam-form {
+    
+    position: absolute;
+    left: 0;
+    width: 25%;
+    height: 60%;
+   /* Semi-transparent overlay */
+    display: flex;
+   display:flex;
+   flex-direction: column;
+    font-size: 16px;
+    z-index: 2;
+    pointer-events: none; /* Optional: Allows clicks to pass through the overlay */
+   color: black;
+   background-color:black;
+ display: none;
+  margin: 5% 5%;
+} 
+.call-detail  {
+    z-index:1;
+    text-align: center;
+    font-size: 16px;
+height: 85%;
+width: 80%;
+background-color: white;
+border-radius: 5px;
+margin: 5% 5%;
+
+}
+    
+#send-but {
+    width: 20%;
+    margin-left: 5%;
+}
+/* about me styling */
+.my-pix {
+    background-color: white;
+      margin-left: 40%;
+      width: 30%;
+      border-radius: 5px;
+      text-align: center;
+      margin-top: 2%;
+      
+}
+.my-pix:hover {
+    background-color: black;
+    color: white;
+    width: 30%;
+}
+.top-about {
+    background-image: url(Picsart_24-08-02_13-39-24-463.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 20%;
+    width: 80%;
+    background-position: center;
+    margin-left: 7%;
+    margin-top: 5%;
+    border: 3px solid black;
+    
+}
+
+.Solomon {
+    color: white;
+  font-size: 16px;
+  margin-left: 5%;
+  font-family: 'Times New Roman', Times, serif;
+  
+  
+}
+.me {
+margin-left: 5%;
+font-size: 14px;
+
+}
+/* our service styling */
+
+.our-service {
+    height: 5%;
+    width: 98%;
+   
+
+}
+.service-h1 {
+  color: black;
+  margin-left: 35%;
+ margin-top: 0;
+}
+
+.boy {
+       width: 98%;
+       height: 100%;
+}
+.container{
+             display: flex;
+             flex-direction: column;
+             height: 100%;
+             width: 90%;
+             border: 1px solid red;
+             margin: 0;
+}
+
+
+.content {
+    text-align: center;
+    font-size: 14px;
+height: 100%;
+width: 100%;
+background-color: whitesmoke;
+border-radius: 5px;
+opacity: 0.5;
+border: 1px solid red;
+
+}
+h5 b { 
+    color: black;
+    font-size: 18px;
+    line-height: 2rem;
+}
+ .content a {
+              color: black;
+              font-size: 20px;
+              text-decoration: none;
+ }
+ 
+#icon {
+    width: 15%;
+    height: 10%;
+    border-radius: 10px;
+    border: 10px solid black;
+   margin-top: 1%;
+   
+   
+} 
+overlay {
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+   /* Semi-transparent overlay */
+    display: flex;
+    font-size: 14px;
+   /* z-index: 1;*/
+    pointer-events: none; /* Optional: Allows clicks to pass through the overlay */
+   color: black;
+   background-color: whitesmoke;
+}
+
+.item {
+    position: relative;
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+   background-color: rgb(241, 227, 227);
+   height: 100%;
+   width: 100%;
+}
+
+}
